@@ -12,7 +12,6 @@ set_time_format -unit ns -decimal_places 3
 
 create_clock -name {SYS_CLK} -period 20.000 -waveform { 0.000 10.000 } [get_ports {SYS_CLK}]
 create_clock -name {USER_CLK} -period 41.667 -waveform { 0.000 20.803 } [get_ports {USER_CLK}]
-create_clock -name {FTDI_CLK} -period 16.667 -waveform { 0.000 8.334 } [get_ports {GPIO_J4_35}]
 
 
 
